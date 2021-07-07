@@ -25,6 +25,12 @@ public class WeakHospital {
 				}
 			}
 		}
+		if(al.size()!=r){
+            for(int i=0;i<r;i++){
+                if(!al.contains(i))
+                    al.add(i);
+            }
+        }
 		for(int i=0;i<n;i++) {
 			System.out.print(al.get(i) + " ");
 		}
